@@ -1,5 +1,6 @@
 # led_organ
 NewMaker校内赛能量机关
+！[image](https://github.com/rein-wxy/photo/blob/master/%E8%83%BD%E9%87%8F%E6%9C%BA%E5%85%B3/%E8%83%BD%E9%87%8F%E6%9C%BA%E5%85%B3.jpg)
 ## 实现功能
 * 实现定速循环
 * 无规律变速运动
