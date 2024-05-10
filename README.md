@@ -23,9 +23,10 @@ NewMaker校内赛能量机关
   利用数组随机下标映射速度系数
 ~~~ c
 factor[8] = {-2,-1.5,-1 -0.7, 0.7, 1, 1.5, 2};//速度变化系数
-if(HAL_GetTick() - speed_tim[0] >= 400){
-		ftr = factor2[rand() %(8)];
-		speed_tim[0] = HAL_GetTick();
+if(HAL_GetTick() - speed_tim[0] >= 400)
+{
+	ftr = factor[rand() %(8)];
+	speed_tim[0] = HAL_GetTick();
 }
 ~~~
 
